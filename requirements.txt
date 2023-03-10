@@ -1,3 +1,4 @@
 ultralytics
 PIL
 cv2
+opencv-python-headless
