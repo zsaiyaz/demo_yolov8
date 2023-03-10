@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 from PIL import Image
-import cv2
+# import cv2
 
 # Load a model
 model = YOLO("best.pt")  # load a custom model
