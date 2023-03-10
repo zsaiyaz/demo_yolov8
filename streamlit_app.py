@@ -7,7 +7,7 @@ model = YOLO("best.pt")  # load a custom model
 
 # accepts all formats - image/dir/Path/URL/video/PIL/ndarray. 0 for webcam
 # results = model.predict(source="0")
-results = model.predict(source="data", show=False, save=True) # Display preds. Accepts all YOLO predict arguments
+results = model.predict(source="data", show=True, save=False) # Display preds. Accepts all YOLO predict arguments
 
 # from PIL
 # im1 = Image.open("data/test1.jpg")
