@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-from PIL import Image
+# from PIL import Image
 # import cv2
 
 # Load a model
